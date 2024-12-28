@@ -22,7 +22,7 @@ pipeline {
 
         stage('Checkout SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/SnigdhaKapuri/Blog_app.git'  // Clone the repo
+                git branch: 'main', url: 'https://github.com/Vaishnavisousuddi/Blogging_app.git'  // Clone the repo
             }
         }
         
