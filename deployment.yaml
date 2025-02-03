@@ -18,7 +18,7 @@ spec:
       - name: ibm-cloud-secret
       containers:
       - name: blog-app
-        image: icr.io/cloud-namespace12345/blogapp:latest
+        image: icr.io/cloud22/blogapp:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080  # Changed from 3000 to 8080
